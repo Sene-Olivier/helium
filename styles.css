@@ -1,7 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
+}
+
+body {
+    background: #1D1D1D;
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    color: #474DFF;
+}
+
+nav {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+a {
+    color: inherit;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    font-size: 0.8rem;
+
+}
+
+p {
+    font-size: 0.6rem;
+}
+
+.main-container {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.product-img {
+    width: 580px;
 }
 
