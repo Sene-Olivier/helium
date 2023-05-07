@@ -61,3 +61,27 @@ p {
     width: 580px;
 }
 
+.footer {
+    background: #0D0D0D;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.technologies {
+display: flex;
+flex-direction: column;
+}
+
+.technologies button {
+    width: 150px;
+    height: 35px;
+    border-radius: 7px;
+    color: whitesmoke;
+    background: #4950FF;
+    border: none;
+    margin: 15px 25px 15px;
+}
+
+h4 {
+    margin: 25px;
+}
