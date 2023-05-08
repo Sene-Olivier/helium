@@ -127,7 +127,7 @@ p {
 
 .logos {
     height: 60px;
-    opacity: 80%;
+    opacity: 40%;
 }
 
 .logos:hover {
@@ -156,6 +156,14 @@ p {
         font-size: 0.9rem;
         text-align: center;
         padding-top: 10px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    nav li {
+        font-size: 1.2rem;
     }
 
     .main-container {
@@ -207,3 +215,47 @@ p {
         background: #1D1D1D;
 
 }
+
+@media screen and (max-width: 670px) {
+
+    nav li {
+        font-size: 0.9rem;
+    }
+
+    .product-img {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    .btn-container {
+        margin: auto;
+        display: block;
+        overflow: hidden;
+        margin-top: -30px;
+    }
+
+    .footer button {
+        display: block;
+        overflow: hidden;
+        width: 150px;
+        margin: 25px;
+        border-radius: 10px;
+  
+    }
+
+    .logo-container {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+    }
+
+    .logos {
+        margin: 25px;
+    }
+
+
+}}
