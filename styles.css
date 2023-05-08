@@ -1,4 +1,8 @@
+/* Inter Font Import */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+
+/* Reset Parameters */
 
 * {
     margin: 0;
@@ -23,6 +27,11 @@ h2 {
     font-size: 1.2rem;
 }
 
+h2:hover {
+    color: rgb(116, 236, 103);
+    transition: 0.6s;
+}
+
 h3 {
     color: #474DFF;
 }
@@ -45,6 +54,12 @@ nav ul {
 
 li {
     font-size: 0.8rem;
+}
+
+li a:hover {
+    color: #474DFF;
+    font-size: 1.3rem;
+    transition: 0.5s;
 }
 
 p {
@@ -83,7 +98,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .btn-container button {
@@ -107,11 +121,89 @@ p {
 .logo-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 15px 0;
 }
 
-
 .logos {
-    width: 80px;
-    padding-top: 10px;
+    height: 60px;
+    opacity: 80%;
+}
+
+.logos:hover {
+    opacity: 100%;
+    transition: 0.5s;
+    transform: scale (1.5);
+}
+
+/* RESPONSIVE  */
+
+
+@media screen and (max-width: 950px) {
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.7rem;
+        padding-top: 10px;
+    }
+
+    p {
+        font-size: 0.9rem;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-container {
+        padding-top: 30px;
+    }
+
+    .product-img {
+        min-width: 100%;
+        overflow: hidden;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+    .technologies {
+        display: flex;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 20px 0;
+    }
+    
+    .btn-container {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .btn-container button {
+        transform: scale(1.4);
+    }
+
+    .investors {
+        background: #1D1D1D;
+
 }
